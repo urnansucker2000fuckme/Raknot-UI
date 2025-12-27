@@ -1,7 +1,3 @@
-# Raknot UI
-
-A modern, feature-rich UI library for Roblox with a sleek design and smooth user experience.
-
 ![Raknot UI Banner](https://raknot.dev/example/github/raknot-UI/banner/index.php)
 
 ## Features
