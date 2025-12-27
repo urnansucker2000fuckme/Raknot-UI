@@ -1,4 +1,4 @@
-![Raknot UI Banner](https://raknot.dev/example/github/raknot-UI/banner/index.php)
+![Raknot UI Banner](https://raknot.dev/example/github/raknot-UI/index.php)
 
 ## Features
 
@@ -92,6 +92,6 @@ Raknot UI supports both light and dark themes with a carefully designed color sy
 
 ---
 
-**Version:** 1.0.2  
+**Version:** 1.0.0  
 **Created by:** raknot (onys)  
 **License:** MIT
